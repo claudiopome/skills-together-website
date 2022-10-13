@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontSize: {
+      '6xl': ['3.75rem', '1.2'],
+    },
     fontFamily: {
       'sans': ['Helvetica', 'sans-serif'],
     },
