@@ -17,7 +17,7 @@ module.exports = {
       '6xl': ['3.75rem', '1.2'],
     },
     fontFamily: {
-      'sans': ['Helvetica', 'sans-serif'],
+      'sans': ['Permanent', 'sans-serif'],
     },
     extend: {
       colors: {
