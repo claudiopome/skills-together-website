@@ -14,9 +14,9 @@
         <img src="assets/images/svg/logo.svg" class="mr-3 h-16" alt="Skills Together Logo"/>
         <!--<span class="text-2xl leading-tight font-regular text-blue hover:text-yellow">Skills<br>Together</span> -->
       </a>
-      <div class="flex items-center md:order-2">
+      <div class="flex items-center">
         <button data-collapse-toggle="mobile-menu-language-select" type="button"
-                class="inline-flex items-center p-2 ml-1 text-sm text-blue hover:text-yellow focus:outline-none"
+                class="inline-flex lg:hidden items-center p-2 ml-1 text-sm text-blue hover:text-yellow focus:outline-none"
                 aria-controls="mobile-menu-language-select" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" aria-hidden="true" viewBox="0 0 20 20"
@@ -27,7 +27,7 @@
           </svg>
         </button>
       </div>
-      <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1">
+      <div class="hidden justify-between items-center w-full lg:flex md:w-auto">
         <ul class="flex flex-col p-4 mt-4 md:flex-row justify-center space-x-12 md:mt-0 md:text-base font-bold">
           <li>
             <a href="#" class="block py-2 pr-4 pl-3 font-normal hover:text-yellow text-blue md:p-0">Know how &amp; Skills</a>
@@ -53,8 +53,7 @@
         </ul>
       </div>
     </div>
-
-  </nav>
+ </nav>
 </header>
 <section class="bg-light-gray">
   <div class="container px-4 md:px-0 mx-auto">
@@ -62,20 +61,20 @@
       si occupa di qualità della formazione, di tecnologie della didattica e di ricerca applicata.</h1>
   </div>
 </section>
-<nav class="sticky top-[87px]">
-  <ul class="hidden lg:flex bg-light-gray">
-    <li class="flex-1 mr-1">
-      <a class="block text-center text-2xl text-dark-gray bg-white hover:bg-yellow hover:text-white capitalize p-4" href="#">Progetti in corso</a>
+<nav class="md:sticky md:top-[96px]">
+  <ul class="md:flex bg-light-gray p-4">
+    <li class="md:flex-1 mb-4 md:mr-1">
+      <a class="block text-center text-2xl text-white md:text-dark-gray bg-dark-gray md:bg-white hover:bg-yellow hover:text-white capitalize p-4" href="#">Progetti in corso</a>
     </li>
-    <li class="flex-1 mr-1">
+    <li class="md:flex-1 md:mr-1">
       <a class="block text-center text-2xl text-white bg-dark-gray hover:bg-yellow capitalize p-4" href="#">Updates</a>
     </li>
-    <li class="flex-1 mr-1">
+    <li class="md:flex-1 md:mr-1">
       <a class="block text-center text-2xl text-white bg-dark-gray hover:bg-yellow capitalize p-4" href="#">Journal</a>
     </li>
   </ul>
 </nav>
-<section class="container mx-auto grid gap-x-20 gap-y-12 md:grid-cols-2 lg:grid-cols-3 pt-20 pb-24 px-4">
+<section class="hidden  container mx-auto md:grid md:gap-x-20 md:gap-y-12 lg:grid-cols-3 pt-20 pb-24 px-4">
   <a class="text-center text-3xl xl:text-5xl text-white bg-blue hover:bg-yellow px-20 py-20" href="#">Angle</a>
   <a class="text-center text-3xl xl:text-5xl text-white bg-blue hover:bg-yellow px-20 py-20" href="#">Coursera</a>
   <a class="text-center text-3xl xl:text-5xl text-white bg-blue hover:bg-yellow px-20 py-20" href="#">Tour X</a>
