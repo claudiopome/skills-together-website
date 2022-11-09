@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="public/build.css" rel="stylesheet">
     <title>Skills Together</title>
+
+    <style>
+        @font-face {
+            font-family: "Permanent";
+            src: url("./assets/fonts/permanent-regular.otf");
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Permanent";
+            src: url("./assets/fonts/permanent-italic.otf");
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: "Permanent";
+            src: url("./assets/fonts/permanent-medium.otf");
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Permanent";
+            src: url("./assets/fonts/permanent-mediumitalic.otf");
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        /** Use SVG filter in order to change icon fill on hover
+         *
+         * https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-use-them/
+         */
+        .logo-white:hover {
+            filter: url(#logo-hover);
+        }
+
+
+    </style>
 </head>
 <body class="font-sans bg-white">
 <header class="py-4 px-4 md:px-0 bg-white md:bg-light-gray sticky top-0">
