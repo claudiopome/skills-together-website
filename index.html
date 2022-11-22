@@ -64,7 +64,7 @@
 </header>
 <section class="bg-light-gray">
   <div class="container px-4 md:px-0 mx-auto">
-    <h1 class="text-4xl lg:text-6xl pt-4 pb-8 lg:pt-16 lg:pb-36 text-dark-gray xl:w-5/6"><span class="text-blue">Skills Together</span>
+    <h1 class="text-4xl lg:text-6xl pt-12 pb-12 lg:pt-16 lg:pb-36 text-dark-gray xl:w-5/6"><span class="text-blue">Skills Together</span>
       si occupa di qualità della formazione, di tecnologie della didattica e di ricerca applicata.</h1>
   </div>
 </section>
@@ -81,7 +81,7 @@
     </li>
   </ul>
 </nav>
-<section class="container mx-auto grid gap-x-12 gap-y-12 lg:grid-cols-3 pt-10 lg:pt-20 pb-24 px-4">
+<section class="hidden container mx-auto md:grid md:gap-x-12 md:gap-y-12 lg:grid-cols-3 pt-10 lg:pt-20 pb-24 px-4">
   <a href="single.html" class="flex justify-center items-center text-center text-3xl xl:text-5xl text-white bg-blue hover:bg-yellow px-5 py-28">Angle</a>
   <a href="single.html" class="flex justify-center items-center text-center text-3xl xl:text-5xl text-white bg-blue hover:bg-yellow px-5 py-28">Macroeconomics Financial Accounts</a>
   <a href="single.html" class="flex justify-center items-center text-center text-3xl xl:text-5xl text-white bg-blue hover:bg-yellow px-5 py-28">Tour X</a>
@@ -137,9 +137,26 @@
   <div class="text-center text-white bg-blue py-8">
        &copy; 2022, Skills Together Srls, Tutti i diritti riservati.
   </div>
-  <div class="bg-blue p-8 fixed grid gap-y-10 lg:grid-cols-12 top-0 right-0 bottom-0 left-0">
+  <div class="bg-blue p-8 fixed grid gap-y-10 lg:grid-cols-12 w-screen h-screen duration-700 opacity-100 overflow-hidden">
 
-      <img src="assets/images/svg/logo-white.svg" class="mr-3 h-16 logo-blue lg:col-span-3" alt="Skills Together Logo"/>
+    
+      <a href="#" class="lg:col-span-3">
+        <svg id="svg" class="hidden">
+          <defs>
+            <filter id="logo-hover">
+              <feColorMatrix
+                      color-interpolation-filters="sRGB"
+                      type="matrix"
+                      values="1.00 0   0   0   0
+                        0   0.82  0   0   0
+                        0   0   0.00  0   0
+                        0   0   0   1   0 "/>
+            </filter>
+          </defs>
+        </svg>
+        <img src="assets/images/svg/logo-white.svg" class="mr-3 h-16 logo-white" alt="Skills Together Logo"/>
+      </a>
+      
 
       <div class="lg:col-span-6 flex flex-col flex-auto">
         <ul>
@@ -180,18 +197,18 @@
           </li>
        </ul>
       </div>
-      <nav class="lg:col-span-2">
+      <nav class="md:col-start-4 lg:col-start-9 lg:col-span-2">
         <ul>
           <li> 
-            <a href="contatti.html" class="block text-4xl lg:text-5xl my-2 font-normal hover:text-yellow text-white uppercase">En</a>
+            <a href="index.html" class="block text-4xl lg:text-5xl my-2 font-normal hover:text-yellow text-white uppercase">En</a>
           </li>
           <li> 
-            <a href="contatti.html" class="block text-4xl lg:text-5xl my-2 font-normal hover:text-yellow text-white uppercase">It</a>
+            <a href="index.html" class="block text-4xl lg:text-5xl my-2 font-normal hover:text-yellow text-white uppercase">It</a>
           </li>
         </ul>
       </nav>
 
-      <div class="hidden lg:flex lg:items-start lg:justify-end">
+      <div class="hidden lg:col-start-11 lg:flex lg:items-start lg:justify-end">
         <a class="text-6xl font-normal hover:text-yellow text-white" href="#">&times;</a>
       </div>
 
