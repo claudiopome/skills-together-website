@@ -1,8 +1,10 @@
 window.addEventListener("load", function() {
     
     const menu =  document.getElementById("mobile-menu");
+    const subMenu = document.getElementById("sub-menu");
     const openMenu = document.getElementById("open-menu");
     const closeMenu = document.getElementById("close-menu");
+    const openSubMenu = document.getElementById("open-submenu");
 
     openMenu.addEventListener("click", function(e) {
         e.preventDefault();
@@ -17,6 +19,11 @@ window.addEventListener("load", function() {
         menu.classList.add("opacity-0", "w-0", "h-0", "p-0");
         this.classList.remove("fixed", "top-6");
         
+    });
+
+    openSubMenu.addEventListener("click", function(e) {
+        e.preventDefault();
+        subMenu.classList.toggle("hidden");
     });
 
 
